@@ -1,0 +1,20 @@
+UPDATE 1.0
+#Purchase
+-- create blade
+-- edit blade
+-- purchase.php
+--purchaseController
+
+#Sale
+-- pos.blade.php
+-- Query: ALTER TABLE 'sales' ADD 'grand_cost' INT(250) NOT NULL DEFAULT '0' AFTER 'staff_note'
+
+
+Product_Sale.php 
+Query: ALTER TABLE 'product_sale' ADD 'net_unit_cost' INT(250) NOT NULL DEFAULT '0' AFTER 'total'
+
+
+Report Controller
+profit_loss.blade
+HomeController
+Config- > app.php
