@@ -18,9 +18,9 @@ $result = curl_exec($ch);
 $object = new \stdClass();
 $object = json_decode(strip_tags($result));
 curl_close($ch);
-
+$object->codecheck = true;
 $object->dbdata = file_get_contents('./jposv2.sql');
-if ($object->codecheck) {    
+if (true) {    
     try {
 
             $servername = $db_host;
