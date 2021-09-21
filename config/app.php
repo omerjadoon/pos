@@ -54,7 +54,7 @@ return [
 
     'url' => env('APP_URL', 'https://jadoonpos.herokuapp.com'),
 
-    'asset_url' => env('ASSET_URL', 'https://jadoonpos.herokuapp.com'),
+    'asset_url' => env('ASSET_URL', null),
 
     /*
     |--------------------------------------------------------------------------
